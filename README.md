@@ -1,53 +1,18 @@
-THIS IS MY PROJECT ON A SUBJECT CALLED OPERATING SYSTEM
+# HandTalk 🤟
 
-IT IS A HAND SIGN LANGUAGE DETECTOR USING OPENCV 
+A real-time Hand Sign Language Detector that recognizes hand gestures and converts them into audio output — bridging communication between deaf and non-deaf individuals.
 
-1. Core Libraries
+Built as a project for the subject **Operating Systems**.
 
-* `numpy` → numerical operations
-* `pandas` → data handling
-* `matplotlib` → plotting (optional for debugging/visualizing)
-* `seaborn` → advanced plotting (optional)
+---
 
-bash
-pip install numpy pandas matplotlib seaborn
+## What it does
 
-2. Computer Vision & Image Handling
+- Detects hand gestures in real-time using your webcam
+- Recognizes individual **letters** and **words** from sign language
+- Converts recognized signs into **audio output** using text-to-speech
+- Enables seamless communication between deaf and non-deaf people
 
-* `opencv-python` → capturing video frames, preprocessing
-* `opencv-contrib-python` → extra modules like `dnn` if needed
-* `mediapipe` → hand detection/pose landmarks
-* `Pillow` → image processing
+---
 
-bash
-pip install opencv-python opencv-contrib-python mediapipe Pillow
-
-
-3. Deep Learning / Model Training
-
-* `tensorflow` → training your 3D CNN
-* `keras` → high-level model API (already included in recent TF versions)
-* `scikit-learn` → train-test split, metrics, preprocessing
-
-pip install tensorflow scikit-learn
-
-
-*(Optional: if you want GPU support, use `pip install tensorflow-gpu` depending on your setup.)*
-
-4. NLP & Speech
-
-* `nltk` → text preprocessing
-* `pyttsx3` → text-to-speech offline
-* `SpeechRecognition` → optional if you add audio input
-
-pip install nltk pyttsx3 SpeechRecognition
-
-
-5. Utility / Others
-
-* `tqdm` → progress bars during model training
-* `joblib` → saving/loading models
-* `h5py` → saving Keras models (if using HDF5)
-
-pip install tqdm joblib h5py
-
+## How it works
